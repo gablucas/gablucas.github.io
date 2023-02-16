@@ -34,12 +34,15 @@ const GlobalStyle = createGlobalStyle`
   
   button {
     cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
   }
 
   a {
     display: block;
     text-decoration: none;
-    color: #FFFFFF;
+    color: inherit;
   }
 
   ul {
