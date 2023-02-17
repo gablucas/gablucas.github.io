@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     --text-color2:#F7F7F7;
 
     --font-72-eb: 800 4.5rem/1.1 'Inter';
+    --font-48-eb: 800 3rem/1.1 'Inter';
     --font-32-b: 700 2rem/1.2 'Inter';
     --font-18-m: 500 1.125rem/1.4 'Inter';
     --font-18-r: 400 1.125rem/1.4 'Inter';
@@ -33,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
   @media(max-width: 640px) {
     :root {
       --font-72-eb: 800 3rem/1.1 'Inter';
+      --font-48-eb: 800 2.8rem/1.1 'Inter';
       --font-32-b: 700 1.6rem/1.2 'Inter';
       --font-18-r: 400 1rem/1.4 'Inter';
     }
@@ -41,6 +43,7 @@ const GlobalStyle = createGlobalStyle`
   @media(max-width: 500px) {
     :root {
       --font-72-eb: 800 2.6rem/1.1 'Inter';
+      --font-48-eb: 800 2.2rem/1.1 'Inter';
       --font-32-b: 700 1.4rem/1.2 'Inter';
       --font-18-r: 400 .875rem/1.4 'Inter';
     }
@@ -49,11 +52,11 @@ const GlobalStyle = createGlobalStyle`
   @media(max-width: 375px) {
     :root {
       --font-72-eb: 800 2rem/1.1 'Inter';
+      --font-48-eb: 800 1.8rem/1.1 'Inter';
       --font-32-b: 700 1.2rem/1.2 'Inter';
       --font-18-r: 400 .725rem/1.4 'Inter';
     }
   }
-
 
   * {
     margin: 0;
@@ -64,9 +67,6 @@ const GlobalStyle = createGlobalStyle`
 
 
   body {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1440px;
     margin: 0 auto;
     background-color: var(--primary-color);
     -webkit-font-smoothing: antialised;

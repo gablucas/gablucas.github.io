@@ -23,7 +23,7 @@ const Nav = () => {
 
       <StyledNav toggle={toggleMobile}>
         <ul>
-          <li><a href="#sobremim">Sobre mim</a></li>
+          <li><a href="#about">Sobre mim</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>

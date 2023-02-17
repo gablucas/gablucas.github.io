@@ -3,14 +3,14 @@ import styled from "styled-components";
 import zigzag from '../../../assets/details/zigzag.svg';
 import circles from '../../../assets/details/circles.svg';
 
-export const Container = styled.div`
+export const Container = styled.main`
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   gap: 40px;
   padding-top: 60px;
+  margin-bottom: 23vh;
 
-  height: calc(100vh - 200px);
   color: var(--secondary-color);
 
   & img {
