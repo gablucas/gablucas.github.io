@@ -6,7 +6,7 @@ import useMedia from '../../../hooks/useMedia';
 const Logo = () => {
   const { toggleMobile, setToggleMobile } = React.useContext(HeaderContext);
   const [rotate, setRotate] = React.useState(false);
-  const mobileSize = useMedia('(max-width: 720px)');
+  const mobileSize = useMedia('(max-width: 640px)');
 
   // Rotaciona a logo ao passar o mouse em cima
   function handleRotateLogo() {
@@ -28,7 +28,7 @@ const Logo = () => {
   }, [mobileSize, setToggleMobile])
 
   return (
-    <LogoStyled rotateLogo={rotate} onMouseEnter={handleRotateLogo} onClick={handleRotateLogo} >
+    <LogoStyled rotateLogo={rotate} onMouseEnter={handleRotateLogo} >
       <svg width="120" height="77" viewBox="0 0 120 77" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M82.5 10.2812C82.5 5.10358 86.6973 0.90625 91.875 0.90625V38.4062H82.5V10.2812Z" fill={toggleMobile ? '#000000' : '#FFFFFF'}/>
         <path d="M115.312 38.5938C115.312 46.3603 109.017 52.6562 101.25 52.6562C93.4835 52.6562 87.1875 46.3603 87.1875 38.5938C87.1875 30.8272 93.4835 24.5312 101.25 24.5312C109.017 24.5312 115.312 30.8272 115.312 38.5938Z" stroke={toggleMobile ? '#000000' : '#FFFFFF'} strokeWidth="9.375"/>

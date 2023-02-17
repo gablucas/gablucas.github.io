@@ -9,7 +9,11 @@ export const LogoStyled = styled.a.attrs(props => ({
   transition: rotate 1s;
   rotate: ${props => props.rotateLogo === true ? '180deg' : '0deg'};
 
-  @media(max-width: 720px) {
+  @media(max-width: 640px) {
+
+    svg {
+      width: 100px;
+    }
 
     & svg * {
       transition: all 1s;

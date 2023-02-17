@@ -3,10 +3,57 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
   :root {
-    --background: #000000;
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #121212;
+    --display-color: #FFA700;
+    --subtitle-color1: #B2B2B2;
+    --subtitle-color2: #2B2B2B;
+    --text-color1: #C8C8C8;
+    --text-color2:#F7F7F7;
 
-    --font-18-m: 500 1.125rem/1 sans-serif;
+    --font-72-eb: 800 4.5rem/1.1 'Inter';
+    --font-32-b: 700 2rem/1.2 'Inter';
+    --font-18-m: 500 1.125rem/1.4 'Inter';
+    --font-18-r: 400 1.125rem/1.4 'Inter';
   }
+
+  @media(max-width: 1240px) {
+    :root {
+      --font-72-eb: 800 3.5rem/1.1 'Inter';
+    }
+  }
+
+  @media(max-width: 940px) {
+    :root {
+      --font-72-eb: 800 4rem/1.1 'Inter';
+    }
+  }
+
+  @media(max-width: 640px) {
+    :root {
+      --font-72-eb: 800 3rem/1.1 'Inter';
+      --font-32-b: 700 1.6rem/1.2 'Inter';
+      --font-18-r: 400 1rem/1.4 'Inter';
+    }
+  }
+
+  @media(max-width: 500px) {
+    :root {
+      --font-72-eb: 800 2.6rem/1.1 'Inter';
+      --font-32-b: 700 1.4rem/1.2 'Inter';
+      --font-18-r: 400 .875rem/1.4 'Inter';
+    }
+  }
+
+  @media(max-width: 375px) {
+    :root {
+      --font-72-eb: 800 2rem/1.1 'Inter';
+      --font-32-b: 700 1.2rem/1.2 'Inter';
+      --font-18-r: 400 .725rem/1.4 'Inter';
+    }
+  }
+
 
   * {
     margin: 0;
@@ -15,20 +62,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
-    @media (max-width: 1080px) {
-      font-size: 93.75%;
-    }
-
-    @media (max-width: 720px) {
-      font-size: 87.5%;
-    }
-  }
 
   body {
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: var(--background);
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
     -webkit-font-smoothing: antialised;
   }
   
