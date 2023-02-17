@@ -8,17 +8,14 @@ const revealToLeft = keyframes`
 `
 
 const showMenuMobile = keyframes`
-to {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
+  to {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
 `
 
 export const StyledNav = styled.nav`
-
-  position: relative;
-
   & ul {
     display: flex;
     gap: 40px;
@@ -44,7 +41,7 @@ export const StyledNav = styled.nav`
     animation: ${revealToLeft} .3s forwards;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 640px) {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -76,7 +73,6 @@ export const StyledNav = styled.nav`
     }
   }
 `
-
 export const MobileButton = styled.button`
   display: none;
   height: 3px;
@@ -119,7 +115,7 @@ export const MobileButton = styled.button`
     transition: all .3s;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 640px) {
     display: initial;
   }
 

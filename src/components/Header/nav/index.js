@@ -9,6 +9,14 @@ const Nav = () => {
     setToggleMobile(!toggleMobile);
   }
 
+  React.useEffect(() => {
+    if (toggleMobile) {
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.documentElement.style.overflow = "initial";
+    }
+  }, [toggleMobile])
+
   return (
     <>
       <MobileButton toggle={toggleMobile} onClick={handleToggleMenuMobile} />
