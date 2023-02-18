@@ -4,7 +4,6 @@ import Logo from '../logo/index';
 import Nav from '../nav';
 import HeaderProvider  from '../HeaderContext';
 
-
 const Header = () => {
 
   return (

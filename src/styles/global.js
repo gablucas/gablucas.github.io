@@ -14,9 +14,14 @@ const GlobalStyle = createGlobalStyle`
 
     --font-72-eb: 800 4.5rem/1.1 'Inter';
     --font-48-eb: 800 3rem/1.1 'Inter';
+    --font-32-eb: 800 2rem/1.1 'Inter';
     --font-32-b: 700 2rem/1.2 'Inter';
     --font-18-m: 500 1.125rem/1.4 'Inter';
     --font-18-r: 400 1.125rem/1.4 'Inter';
+    --font-14-eb: 800 .875rem/1.1 'Inter';
+    --font-14-b: 700 .875rem/1.1 'Inter';
+    --font-14-r: 400 .875rem/1.1 'Inter';
+    --font-12-eb: 800 .75rem/1.1 'Inter';
   }
 
   @media(max-width: 1240px) {
@@ -87,6 +92,11 @@ const GlobalStyle = createGlobalStyle`
 
   ul {
     list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
   }
 `
 

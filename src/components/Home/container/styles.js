@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 import zigzag from '../../../assets/details/zigzag.svg';
 import circles from '../../../assets/details/circles.svg';
 

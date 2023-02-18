@@ -2,8 +2,12 @@ import styled, { keyframes } from "styled-components";
 import ondulation from '../../../assets/details/ondulation.svg';
 
 const toLeft = keyframes`
+  from {
+    background-position: 0;
+  }
+
   to {
-    background-position: -777px;
+    background-position: 80px;
   }
 `
 
@@ -21,7 +25,7 @@ export const Container = styled.section.attrs(props => ({
     width: 100%;
     height: 25px;
     background: url(${ondulation}) center repeat-x;
-    animation: ${toLeft} 77s infinite linear;
+    animation: ${toLeft} 7s infinite linear;
 
     position: absolute;
     top: -25px;
@@ -34,7 +38,7 @@ export const Container = styled.section.attrs(props => ({
     height: 25px;
     rotate: 180deg;
     background: url(${ondulation}) center repeat-x;
-    animation: ${toLeft} 77s infinite linear;
+    animation: ${toLeft} 7s infinite linear;
 
     position: absolute;
     bottom: -25px;
