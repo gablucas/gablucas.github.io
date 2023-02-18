@@ -18,6 +18,8 @@ const GlobalStyle = createGlobalStyle`
     --font-32-b: 700 2rem/1.2 'Inter';
     --font-18-m: 500 1.125rem/1.4 'Inter';
     --font-18-r: 400 1.125rem/1.4 'Inter';
+    --font-32-b: 700 2rem/1.2 'Inter';
+    --font-16-b: 700 1rem/1.4 'Inter';
     --font-14-eb: 800 .875rem/1.1 'Inter';
     --font-14-b: 700 .875rem/1.1 'Inter';
     --font-14-r: 400 .875rem/1.1 'Inter';
