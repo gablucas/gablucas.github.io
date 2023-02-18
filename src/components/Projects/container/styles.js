@@ -1,17 +1,21 @@
 import styled from "styled-components";
 import bgPattern from '../../../assets/projects/bgpattern.png'
 
-export const Container = styled.section`
+export const Container = styled.section.attrs(props => ({
+  id: 'projects',
+}))`
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 140px;
+  
   background: url(${bgPattern});
 `
 
 export const Content = styled.div`
+  margin-left: 40px;
+  margin-right: 40px;
   margin: 0 auto;
   max-width: 1440px;
-  padding-left: 40px;
-  padding-right: 40px;
+  
 
   h2 {
     display: flex;
@@ -40,8 +44,8 @@ export const Content = styled.div`
   }
 
   @media (max-width: 640px) {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 
     h2::before {
       width: 260px;

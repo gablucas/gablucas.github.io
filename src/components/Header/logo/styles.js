@@ -3,7 +3,6 @@ import styled from "styled-components";
 // Componente da imagem criado para poder receber o um evento
 export const LogoStyled = styled.a.attrs(props => ({
 }))`
-
   position: relative;
   z-index: 2;
   transition: rotate 1s;
@@ -19,5 +18,4 @@ export const LogoStyled = styled.a.attrs(props => ({
       transition: all 1s;
     }
   }
-
 `
