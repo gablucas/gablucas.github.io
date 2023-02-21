@@ -2,6 +2,7 @@ import React from 'react';
 import { MobileButton, StyledNav } from './styles';
 import { HeaderContext } from '../HeaderContext';
 import useMedia from '../../../hooks/useMedia';
+import CV from '../../../documents/gab_cv.pdf';
 
 const Nav = () => {
   const {toggleMobile, setToggleMobile} = React.useContext(HeaderContext);
@@ -46,7 +47,7 @@ const Nav = () => {
           <li><a href="#about">Sobre mim</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#contact">Contato</a></li>
-          <li><a href="../../../documents/gab_cv.pdf" download>Baixar CV</a></li>
+          <li><a href={CV} download>Baixar CV</a></li>
         </ul>
       </StyledNav>
     </>
