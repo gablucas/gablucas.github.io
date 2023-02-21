@@ -53,13 +53,18 @@ const toLeft = keyframes`
 `
 
 export const Image = styled.div`
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
 
-  img {
+  picture {
     grid-column: 1/-1;
     border-radius: 7px;
+    overflow: hidden;
+  }
+
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -97,7 +102,7 @@ export const Image = styled.div`
   a:hover::before {
     content: "";
     width: 100%;
-    height: 5px;
+    height: 6px;
     border-right: 2px solid var(--tertiary-color);
     background: url(${miniondulation}) repeat-x;
     animation: ${toLeft} 7s infinite linear;

@@ -46,6 +46,7 @@ const Nav = () => {
           <li><a href="#about">Sobre mim</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#contact">Contato</a></li>
+          <li><a href="../../../documents/gab_cv.pdf" download>Baixar CV</a></li>
         </ul>
       </StyledNav>
     </>
