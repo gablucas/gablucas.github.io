@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.f7f75966.js",
+    "main.js": "/static/js/main.d01bc666.js",
+    "static/media/gab_cv.pdf": "/static/media/gab_cv.9020d2cc52220a93cea7.pdf",
     "static/media/me.png": "/static/media/me.6ea720dbf0fe706a3dca.png",
     "static/media/image_jpg_1296.jpg": "/static/media/image_jpg_1296.8e92da797dbcba5f0f88.jpg",
     "static/media/me_680w.png": "/static/media/me_680w.610c27de8515ab46dddc.png",
@@ -24,9 +25,9 @@
     "static/media/ondulation.svg": "/static/media/ondulation.0b0ac2bfc75bef0a724938ea240fa89a.svg",
     "static/media/ondulationblack.svg": "/static/media/ondulationblack.c05c5b899fc28f7b2d901a89b4ace8b1.svg",
     "static/media/miniondulation.svg": "/static/media/miniondulation.26c14e88b98332a99b0d9cd050741223.svg",
-    "main.f7f75966.js.map": "/static/js/main.f7f75966.js.map"
+    "main.d01bc666.js.map": "/static/js/main.d01bc666.js.map"
   },
   "entrypoints": [
-    "static/js/main.f7f75966.js"
+    "static/js/main.d01bc666.js"
   ]
 }
