@@ -18,13 +18,14 @@ const showMenuMobile = keyframes`
 export const StyledNav = styled.nav`
   & ul {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     font: var(--font-18-m);
   }
 
   & a {
     padding: 20px;
     color: #FFFFFF;
+    text-shadow: ${props => props.toggle ? 'none' : '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black'};
     position: relative;
   }
 
@@ -41,7 +42,7 @@ export const StyledNav = styled.nav`
     animation: ${revealToLeft} .3s forwards;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 940px) {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -115,7 +116,7 @@ export const MobileButton = styled.button`
     transition: all .3s;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 940px) {
     display: initial;
   }
 

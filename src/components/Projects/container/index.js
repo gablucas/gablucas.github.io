@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Content } from './styles';
 import Project from '../project';
-import { sites } from '../project/sites';
+import { sites } from '../project/data';
 
 const Projects = () => {
 
