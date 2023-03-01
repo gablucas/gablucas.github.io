@@ -26,7 +26,7 @@ const battlecards = {
     alt: 'Imagem do site Pokemon Battle Cards',
   },
   features: [
-    'Sistema de dificuldades (Inteligencia da máquina)',
+    'Sistema de dificuldades (Inteligência da máquina)',
     'Sistema de pontuação',
     'Sistema de turnos',
     'Animações com Styled Components',
