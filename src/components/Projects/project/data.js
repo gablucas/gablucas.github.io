@@ -1,3 +1,6 @@
+import battlecards_webp_1296 from '../../../assets/projects/battlecards/image_webp_1296.webp';
+import battlecards_jpg_1296 from '../../../assets/projects/battlecards/image_jpg_1296.jpg';
+
 import mybrain_webp_1296 from '../../../assets/projects/mybraintodolist/image_webp_1296.webp';
 import mybrain_jpg_1296 from '../../../assets/projects/mybraintodolist/image_jpg_1296.jpg';
 
@@ -10,6 +13,34 @@ import maplestory_jpg_1296 from '../../../assets/projects/maplestoryclicker/imag
 import dogs_webp_1296 from '../../../assets/projects/dogs/image_webp_1296.webp';
 import dogs_jpg_1296 from '../../../assets/projects/dogs/image_jpg_1296.jpg';
 
+const battlecards = {
+  name: 'Pokemon Battle Cards',
+  description: 'Game de batalha de cards',
+  url: {
+    site: 'https://gablucas.github.io/battlecards-pokemon-react',
+    github: 'https://github.com/gablucas/battlecards-pokemon-react/tree/main',
+  },
+  image: {
+    webp1296: battlecards_webp_1296,
+    jpg1296: battlecards_jpg_1296,
+    alt: 'Imagem do site Pokemon Battle Cards',
+  },
+  features: [
+    'Sistema de dificuldades (Inteligencia da máquina)',
+    'Sistema de pontuação',
+    'Sistema de turnos',
+    'Animações com Styled Components',
+    'Custom Hooks',
+    'Consumo de Rest API',
+  ],
+  technologies: [
+    'Html',
+    'Css',
+    'JavaScript',
+    'React',
+    'Styled Components',
+  ]
+};
 
 const mybrain = {
   name: 'My Brain Todo List',
@@ -124,4 +155,4 @@ const dogs =   {
 }
 
 
-export const sites = [mybrain, ohailongboards, maplestoryclicker, dogs]
+export const sites = [battlecards, mybrain, ohailongboards, maplestoryclicker, dogs]
