@@ -11,10 +11,10 @@ export const Container = styled.section.attrs(props => ({
 `
 
 export const Content = styled.div`
-  margin-left: 40px;
-  margin-right: 40px;
   margin: 0 auto;
   max-width: 1440px;
+  margin-left: 40px;
+  margin-right: 40px;
   
 
   h2 {
