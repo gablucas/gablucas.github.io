@@ -4,6 +4,8 @@ import bgPattern from '../../../assets/projects/bgpattern.png'
 export const Container = styled.section.attrs(props => ({
   id: 'projects',
 }))`
+  display: flex;
+  justify-content: center;
   padding-top: 60px;
   padding-bottom: 140px;
   
@@ -15,8 +17,8 @@ export const Content = styled.div`
   max-width: 1440px;
   margin-left: 40px;
   margin-right: 40px;
-  
 
+  
   h2 {
     display: flex;
     justify-content: center;
