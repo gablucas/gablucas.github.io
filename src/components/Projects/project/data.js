@@ -56,7 +56,8 @@ const mybrain = {
   },
   features: [
     'CRUD',
-    'Etiquetar e filtrar listas',
+    'Filtrar listas',
+    'Etiquetar lista',
     'Fixar lista',
     'Duplicar lista',
     'Alterar cor da lista', 
@@ -82,13 +83,13 @@ const ohailongboards = {
     alt: 'Imagem do site Ohai Longboards',
   },
   features: [
-    'Cadastro de usuários', 
+    'Criar conta', 
     'Painel do usuário', 
     'Favoritar produto', 
-    'Adicionar produto ao carrinho', 
+    'Carrinho', 
     'Finalizar compra', 
     'Alterar dados do usuário', 
-    'Ver dados do pedido',
+    'Informações do pedido',
     'Dados salvos no localStorage para simular um banco de dados'
   ],
   technologies: [
@@ -113,8 +114,9 @@ const maplestoryclicker =   {
   },
   features: [
     'Sistema de progressão de níveis',
-    'Progressão de fases de acordo com o nível do personagem',
-    'Atacar monstros para ganhar recompensas (XP e Gold)', 
+    'Sistema de recompensas (XP e Gold)',
+    'Sistema de ataque e defesa', 
+    'Progressão de fases',
     'Loja de itens', 
     'Inventário do personagem',
     'Equipar itens',
