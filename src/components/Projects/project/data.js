@@ -1,3 +1,6 @@
+import radstore_webp_1296 from '../../../assets/projects/radstore/image_webp_1296.webp';
+import radstore_jpg_1296 from '../../../assets/projects/radstore/image_jpg_1296.jpg';
+
 import battlecards_webp_1296 from '../../../assets/projects/battlecards/image_webp_1296.webp';
 import battlecards_jpg_1296 from '../../../assets/projects/battlecards/image_jpg_1296.jpg';
 
@@ -12,6 +15,40 @@ import maplestory_jpg_1296 from '../../../assets/projects/maplestoryclicker/imag
 
 import dogs_webp_1296 from '../../../assets/projects/dogs/image_webp_1296.webp';
 import dogs_jpg_1296 from '../../../assets/projects/dogs/image_jpg_1296.jpg';
+
+const radstore = {
+  name: 'Rad Store (Em desenvolvimento)',
+  description: 'E-commerce de Roupas e Esportes Radicais',
+  url: {
+    site: 'https://gablucas.github.io/radstore-react/',
+    github: 'https://github.com/gablucas/radstore-react/tree/main',
+  },
+  image: {
+    webp1296: radstore_webp_1296,
+    jpg1296: radstore_jpg_1296,
+    alt: 'Imagem do site Rad Store',
+  },
+  features: [
+    'Criar conta', 
+    'Painel do usuário', 
+    'Favoritar produto', 
+    'Carrinho', 
+    'Finalizar compra', 
+    'Alterar dados do usuário', 
+    'Informações do pedido',
+    'Dados salvos no localStorage para simular um banco de dados'
+  ],
+  technologies: [
+    'Html',
+    'Css',
+    'JavaScript',
+    'React',
+    'Styled Components',
+    'Axios',
+    'React Query',
+    'Figma'
+  ]
+};
 
 const battlecards = {
   name: 'Pokemon Battle Cards',
@@ -157,4 +194,4 @@ const dogs =   {
 }
 
 
-export const sites = [battlecards, mybrain, ohailongboards, maplestoryclicker, dogs]
+export const sites = [radstore, battlecards, mybrain, ohailongboards, maplestoryclicker, dogs]

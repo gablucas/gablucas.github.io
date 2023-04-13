@@ -1,20 +1,16 @@
 import React from 'react';
-import { ProjectContainer, Image, Info, FeatureList, TechnologiesList } from './styles';
+import Image from '../../Helper/image';
+import { ProjectContainer, ImageWrapper, Info, FeatureList, TechnologiesList } from './styles';
 
 const Project = ({ site }) => {
   return (
     <ProjectContainer>
-      <Image>
-        <picture>
-          <source type='image/webp' srcSet={`${site.image.webp1296} 1296w`} />
-          
-
-          <img src={site.image.jpg1296} alt={site.image.alt} />
-        </picture>
+      <ImageWrapper>
+        <Image site={site} />
         
           <a href={site.url.site} target="_blank" rel='noreferrer'>Site</a>
           <a href={site.url.github} target="_blank" rel='noreferrer'>Github</a>
-      </Image>
+      </ImageWrapper>
 
       <Info>
         <h3>{site.name}</h3>
