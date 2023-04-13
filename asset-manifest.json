@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/static/js/main.67fec80e.js",
+    "main.js": "/static/js/main.fa89cd9f.js",
     "static/media/gab_cv.pdf": "/static/media/gab_cv.bb4ddde7df477bbc1da7.pdf",
     "static/media/me.png": "/static/media/me.6ea720dbf0fe706a3dca.png",
-    "static/media/image_jpg_1296.jpg": "/static/media/image_jpg_1296.6003295b990640cad575.jpg",
+    "static/media/image_jpg_1296.jpg": "/static/media/image_jpg_1296.061cc967b57f97d24c4f.jpg",
     "static/media/me_680w.png": "/static/media/me_680w.610c27de8515ab46dddc.png",
     "static/media/me.webp": "/static/media/me.7ce578ac78b751724377.webp",
     "static/media/me_520w.png": "/static/media/me_520w.3bb58cc189eeef0c68ca.png",
@@ -25,9 +25,9 @@
     "static/media/ondulation.svg": "/static/media/ondulation.0b0ac2bfc75bef0a724938ea240fa89a.svg",
     "static/media/ondulationblack.svg": "/static/media/ondulationblack.c05c5b899fc28f7b2d901a89b4ace8b1.svg",
     "static/media/miniondulation.svg": "/static/media/miniondulation.26c14e88b98332a99b0d9cd050741223.svg",
-    "main.67fec80e.js.map": "/static/js/main.67fec80e.js.map"
+    "main.fa89cd9f.js.map": "/static/js/main.fa89cd9f.js.map"
   },
   "entrypoints": [
-    "static/js/main.67fec80e.js"
+    "static/js/main.fa89cd9f.js"
   ]
 }
