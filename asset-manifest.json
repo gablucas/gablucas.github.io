@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.fa89cd9f.js",
-    "static/media/gab_cv.pdf": "/static/media/gab_cv.bb4ddde7df477bbc1da7.pdf",
+    "main.js": "/static/js/main.c24985a0.js",
+    "static/media/gab_cv.pdf": "/static/media/gab_cv.f084b65038ffe1a0acf5.pdf",
     "static/media/me.png": "/static/media/me.6ea720dbf0fe706a3dca.png",
     "static/media/image_jpg_1296.jpg": "/static/media/image_jpg_1296.061cc967b57f97d24c4f.jpg",
     "static/media/me_680w.png": "/static/media/me_680w.610c27de8515ab46dddc.png",
@@ -25,9 +25,9 @@
     "static/media/ondulation.svg": "/static/media/ondulation.0b0ac2bfc75bef0a724938ea240fa89a.svg",
     "static/media/ondulationblack.svg": "/static/media/ondulationblack.c05c5b899fc28f7b2d901a89b4ace8b1.svg",
     "static/media/miniondulation.svg": "/static/media/miniondulation.26c14e88b98332a99b0d9cd050741223.svg",
-    "main.fa89cd9f.js.map": "/static/js/main.fa89cd9f.js.map"
+    "main.c24985a0.js.map": "/static/js/main.c24985a0.js.map"
   },
   "entrypoints": [
-    "static/js/main.fa89cd9f.js"
+    "static/js/main.c24985a0.js"
   ]
 }
