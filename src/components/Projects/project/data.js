@@ -170,8 +170,8 @@ const dogs =   {
   name: 'Dogs',
   description: 'Rede Social de Cachorros',
   url: {
-    site: 'https://gablucas.github.io/curso-origamid-site-dogs-react',
-    github: 'https://github.com/gablucas/curso-origamid-site-dogs-react/tree/main',
+    site: 'https://gablucas.github.io/dogs-react',
+    github: 'https://github.com/gablucas/dogs-react/tree/main',
   },
   image: {
     webp1296: dogs_webp_1296,
@@ -194,4 +194,4 @@ const dogs =   {
 }
 
 
-export const sites = [radstore, battlecards, mybrain, ohailongboards, maplestoryclicker, dogs]
+export const sites = [radstore, dogs, battlecards, mybrain, ohailongboards, maplestoryclicker]
