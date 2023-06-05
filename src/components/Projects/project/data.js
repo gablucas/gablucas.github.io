@@ -17,11 +17,12 @@ import dogs_webp_1296 from '../../../assets/projects/dogs/image_webp_1296.webp';
 import dogs_jpg_1296 from '../../../assets/projects/dogs/image_jpg_1296.jpg';
 
 const radstore = {
-  name: 'Rad Store (Em desenvolvimento)',
+  name: 'Rad Store',
   description: 'E-commerce de Roupas e Esportes Radicais',
   url: {
     site: 'https://gablucas.github.io/radstore-react/',
     github: 'https://github.com/gablucas/radstore-react/tree/main',
+    figma: 'https://www.figma.com/file/Swtnn1dgpnW2gn4U6WCtR9/Radical-Store?type=design&node-id=0%3A1&t=aqIH9jm6i247beL4-1',
   },
   image: {
     webp1296: radstore_webp_1296,
@@ -113,6 +114,7 @@ const ohailongboards = {
   url: {
     site: 'https://gablucas.github.io/site-longboard-loja',
     github: 'https://github.com/gablucas/site-longboard-loja',
+    figma: 'https://www.figma.com/file/oMf90s5VAXpbHS8tDYlovP/Longboard-Shop?type=design&node-id=1203%3A963&t=aqIH9jm6i247beL4-1',
   },
   image: {
     webp1296: ohai_webp_1296,

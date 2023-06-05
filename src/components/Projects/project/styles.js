@@ -149,6 +149,15 @@ export const FeatureList = styled.ul`
     margin-right: 8px;
     background: var(--subtitle-color1);
   }
+
+  a {
+   text-decoration: underline;
+   transition: all .3s;
+  }
+
+  a:hover {
+    color: #F7F7F7;
+  }
 `
 
 export const TechnologiesList = styled.ul`

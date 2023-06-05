@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../Helper/image';
-import { ProjectContainer, ImageWrapper, Info, FeatureList, TechnologiesList } from './styles';
+import { ProjectContainer, ImageWrapper, Info, FeatureList, TechnologiesList, FigmaLink } from './styles';
 
 const Project = ({ site }) => {
   return (
@@ -21,7 +21,10 @@ const Project = ({ site }) => {
           {site.features.map((feature, index) => (
             <li key={index}>{feature}</li>
           ))}
+
+          {site.technologies.some((s) => s === 'Figma') && <li><a href={site.url.figma} rel="noreferrer" target='_blank'>Veja o protótipo feito no Figma</a></li>}
         </FeatureList>
+
 
         <TechnologiesList>
           {site.technologies.map((technology, index) => (
