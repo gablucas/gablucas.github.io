@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../Helper/image';
-import { ProjectContainer, ImageWrapper, Info, FeatureList, TechnologiesList, FigmaLink } from './styles';
+import { ProjectContainer, ImageWrapper, Info, FeatureList, TechnologiesList } from './styles';
 
 const Project = ({ site }) => {
   return (
