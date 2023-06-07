@@ -2,7 +2,7 @@ import React from 'react';
 import { MobileButton, StyledNav } from './styles';
 import { HeaderContext } from '../HeaderContext';
 import useMedia from '../../../hooks/useMedia';
-import CV from '../../../documents/gab_cv.pdf';
+
 
 const Nav = () => {
   const {toggleMobile, setToggleMobile} = React.useContext(HeaderContext);
