@@ -36,7 +36,7 @@ export const Container = styled.section.attrs(props => ({
     display: inline-block;
     width: 100%;
     height: 25px;
-    rotate: 180deg;
+    transform: rotate(180deg);
     background: url(${ondulation}) center repeat-x;
     animation: ${toLeft} 7s infinite linear;
 

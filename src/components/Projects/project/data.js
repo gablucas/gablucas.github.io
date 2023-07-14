@@ -1,3 +1,6 @@
+import learnquest_webp_1296 from '../../../assets/projects/learnquest/image_webp_1296.webp';
+import learnquest_jpg_1296 from '../../../assets/projects/learnquest/image_jpg_1296.jpg';
+
 import radstore_webp_1296 from '../../../assets/projects/radstore/image_webp_1296.webp';
 import radstore_jpg_1296 from '../../../assets/projects/radstore/image_jpg_1296.jpg';
 
@@ -15,6 +18,33 @@ import maplestory_jpg_1296 from '../../../assets/projects/maplestoryclicker/imag
 
 import dogs_webp_1296 from '../../../assets/projects/dogs/image_webp_1296.webp';
 import dogs_jpg_1296 from '../../../assets/projects/dogs/image_jpg_1296.jpg';
+
+const learnquest = {
+  name: 'LearnQuest',
+  description: 'Plataforma de ensino gamificada (EM DESENVOLVIMENTO)',
+  url: {
+    site: 'https://gablucas.github.io/learnquest-react-ts/',
+    github: 'https://github.com/gablucas/learnquest-react-ts/tree/main',
+  },
+  image: {
+    webp1296: learnquest_webp_1296,
+    jpg1296: learnquest_jpg_1296,
+    alt: 'Imagem do site LearnQuest',
+  },
+  features: [
+    'Criar usuários, aulas, matérias e turmas',
+    'Gerenciamento de alunos',
+    'Avaliação de testes realizados pelos alunos',
+    'Informações de progressão',
+    'Sistema gamificado'
+  ],
+  technologies: [
+    'Html',
+    'Css',
+    'TypeScript',
+    'React',
+  ]
+};
 
 const radstore = {
   name: 'Rad Store',
@@ -182,8 +212,9 @@ const dogs =   {
   },
   features: [
     'Projeto feito com auxílio do curso',
-    'CRUD',
     'Consumo de Rest API com autenticação JWT',
+    'Registrar usuário',
+    'Postar fotos',
     'Feed com scroll infinito',
     'Estatísticas' 
   ],
@@ -196,4 +227,4 @@ const dogs =   {
 }
 
 
-export const sites = [radstore, dogs, battlecards, mybrain, ohailongboards, maplestoryclicker]
+export const sites = [learnquest, radstore, dogs, battlecards, mybrain, ohailongboards, maplestoryclicker]
