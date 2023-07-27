@@ -1,11 +1,27 @@
 import React from 'react';
 import { Container } from './styles';
+import Typed from 'typed.js';
 import mewebp from '../../../assets/home/me.webp';
 import me_520w from '../../../assets/home/me_520w.png';
 import me_680w from '../../../assets/home/me_680w.png';
 import mepng from '../../../assets/home/me.png';
 
-const index = () => {
+const Home = () => {
+
+ const love = React.useRef(null)
+
+ React.useEffect(() => {
+  const typed = new Typed(love.current, {
+    strings: ['tecnologia.', 'programação.', 'design.', 'criar.', 'inovar.', 'desafios.', 'desenvolvimento web.'],
+    typeSpeed: 50,
+  });
+
+  return () => {
+    typed.destroy();
+  };
+}, []);
+
+
   return (
    <Container>
       <picture>
@@ -26,10 +42,10 @@ const index = () => {
       <div>
         <span>Gabriel Lucas Pegoretti</span>
         <h1>Desenvolvedor<br/>Front End<span>.</span></h1>
-        <p>Apaixonado por programação e design, gosto de criar soluções que facilitem e melhorem a vida das pessoas.</p>
+        <p>Apaixonado por  <span ref={love} /></p>
       </div>
    </Container>
   )
 }
 
-export default index
+export default Home

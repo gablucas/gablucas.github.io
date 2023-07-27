@@ -58,6 +58,7 @@ export const Container = styled.main`
   & h1 {
     grid-column: 2;
     margin-top: 14px;
+    margin-bottom: 20px;
     font: var(--font-72-eb);
   }
 
@@ -67,7 +68,6 @@ export const Container = styled.main`
 
   & p {
     grid-column: 2;
-    margin-top: 7px;
     width: 480px;
     font: var(--font-18-r);
     color: var(--text-color1);
