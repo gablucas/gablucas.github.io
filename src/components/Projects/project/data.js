@@ -32,9 +32,10 @@ const learnquest = {
     alt: 'Imagem do site LearnQuest',
   },
   features: [
+    'Controle de acesso baseado em função (admin/professor/aluno)',
     'Criar usuários, aulas, matérias e turmas',
     'Gerenciamento de alunos',
-    'Avaliação de testes realizados pelos alunos',
+    'Avaliação de tarefas',
     'Informações de progressão',
     'Sistema gamificado'
   ],
@@ -43,6 +44,7 @@ const learnquest = {
     'Css',
     'TypeScript',
     'React',
+    'Jest',
   ]
 };
 
