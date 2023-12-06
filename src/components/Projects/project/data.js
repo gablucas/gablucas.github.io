@@ -19,9 +19,40 @@ import maplestory_jpg_1296 from '../../../assets/projects/maplestoryclicker/imag
 import dogs_webp_1296 from '../../../assets/projects/dogs/image_webp_1296.webp';
 import dogs_jpg_1296 from '../../../assets/projects/dogs/image_jpg_1296.jpg';
 
+import savemysavings_webp_1296 from '../../../assets/projects/savemysavings/image_webp_1296.webp';
+import savemysavings_jpg_1296 from '../../../assets/projects/savemysavings/image_jpg_1296.jpg';
+
+const savemysavings = {
+  name: 'SaveMySavings',
+  description: 'Aplicação fullstack de controle financeiro (EM DESENVOLVIMENTO)',
+  url: {
+    site: 'https://github.com/gablucas/SaveMySavings-aspnet-react',
+    github: 'https://github.com/gablucas/SaveMySavings-aspnet-react',
+  },
+  image: {
+    webp1296: savemysavings_webp_1296,
+    jpg1296: savemysavings_jpg_1296,
+    alt: 'Imagem do projeto SaveMySavings',
+  },
+  features: [
+    'CRUD de transaçoes por meio de uma web api criada com ASP.NET',
+    'Migração feita via Entity Framework',
+    'Valor total de receitas e despesas'
+  ],
+  technologies: [
+    'C#',
+    ".NET",
+    "ASP.NET",
+    "Entity Framework",
+    "SQL Server",
+    'React',
+    'Axios',
+  ]
+};
+
 const learnquest = {
   name: 'LearnQuest',
-  description: 'Plataforma de ensino gamificada (EM DESENVOLVIMENTO)',
+  description: 'Plataforma de ensino gamificada',
   url: {
     site: 'https://gablucas.github.io/learnquest-react-ts/',
     github: 'https://github.com/gablucas/learnquest-react-ts/tree/main',
@@ -229,4 +260,4 @@ const dogs =   {
 }
 
 
-export const sites = [learnquest, radstore, dogs, battlecards, mybrain, ohailongboards, maplestoryclicker]
+export const sites = [savemysavings, learnquest, radstore, dogs, battlecards, mybrain, ohailongboards, maplestoryclicker]

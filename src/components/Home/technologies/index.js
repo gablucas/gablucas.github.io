@@ -1,23 +1,15 @@
-import html5 from '../../../assets/about/html5.svg';
-import css3 from '../../../assets/about/css3.svg';
-import javascript from '../../../assets/about/javascript.svg';
-import git from '../../../assets/about/git.svg';
-import styledcomponents from '../../../assets/about/styledcomponents.svg';
-import react from '../../../assets/about/react.svg';
-import typescript from '../../../assets/about/typescript.svg';
+import { Item, List } from './styles';
 
 const Technologies = () => {
 
-  const tecnologies = [html5, css3, javascript, git, styledcomponents, react, typescript];
+  const tech = ["C#", ".NET", ".NET CORE", "ASP.NET CORE", "Entity Framework", "SQL Server", "HTML", "CSS", "JavaScript", "React", "Typescript", "JEST", "GIT"]
 
   return (
-    <div>
-      <ul>
-        {tecnologies.map((tecnology, index) => (
-          <li key={index}><img src={tecnology} alt="" /></li>
-        ))}
-      </ul>
-  </div>
+    <List>
+      {tech.map((technology, index) => (
+        <Item key={index}>{technology}</Item>
+      ))}
+    </List>
   )
 }
 

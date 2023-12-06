@@ -12,7 +12,7 @@ const Home = () => {
 
  React.useEffect(() => {
   const typed = new Typed(love.current, {
-    strings: ['tecnologia.', 'programação.', 'design.', 'criar.', 'inovar.', 'desafios.', 'desenvolvimento web.'],
+    strings: ['tecnologia.', 'programação.', 'design.', 'criar.', 'inovar.', 'desafios.', 'desenvolvimento.'],
     typeSpeed: 50,
   });
 
@@ -41,7 +41,7 @@ const Home = () => {
 
       <div>
         <span>Gabriel Lucas Pegoretti</span>
-        <h1>Desenvolvedor<br/>Front End<span>.</span></h1>
+        <h1>Desenvolvedor<br/>Full Stack<span>.</span></h1>
         <p>Apaixonado por  <span ref={love} /></p>
       </div>
    </Container>

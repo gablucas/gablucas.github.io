@@ -8,7 +8,7 @@ const About = () => {
     <Container>
       <Content>
         <h2>Sobre mim</h2>
-        <p>Apaixonado por tecnologia e desenvolvimento web, gosto de desafios que estimulam a buscar soluções inovadoras, em constante aprendizado busco me tornar um profissional cada vez mais capacitado, sempre se superando e entregando resultados de qualidade.</p>
+        <p>Apaixonado por tecnologia e desenvolvimento, gosto de desafios que estimulam a buscar soluções inovadoras, em constante aprendizado busco me tornar um profissional cada vez mais capacitado, sempre se superando e entregando resultados de qualidade.</p>
 
         <Technologies />
 
