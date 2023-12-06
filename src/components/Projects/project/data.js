@@ -26,7 +26,6 @@ const savemysavings = {
   name: 'SaveMySavings',
   description: 'Aplicação fullstack de controle financeiro (EM DESENVOLVIMENTO)',
   url: {
-    site: 'https://github.com/gablucas/SaveMySavings-aspnet-react',
     github: 'https://github.com/gablucas/SaveMySavings-aspnet-react',
   },
   image: {

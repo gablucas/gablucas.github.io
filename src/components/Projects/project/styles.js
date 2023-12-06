@@ -73,12 +73,12 @@ export const ImageWrapper = styled.div`
 
     position: absolute;
     bottom: 0px;
-    width: 50%;
+    width:${props => props.site ? "50%" : "100%"}
   }
 
   a:nth-child(2) {
-    border-right: 2px solid var(--tertiary-color);
-    border-radius: 0 0 0 7px;
+    border-right:${props => props.site ? "2px solid var(--tertiary-color)" : "none"} ;
+    border-radius: ${props => props.site ? "0 0 0 7px" : "0 0 7px 7px"} ;
   }
 
   a:nth-child(3) {

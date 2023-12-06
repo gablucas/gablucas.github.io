@@ -5,10 +5,10 @@ import { ProjectContainer, ImageWrapper, Info, FeatureList, TechnologiesList } f
 const Project = ({ site }) => {
   return (
     <ProjectContainer>
-      <ImageWrapper>
+      <ImageWrapper site={site.url.site}>
         <Image site={site} />
         
-          <a href={site.url.site} target="_blank" rel='noreferrer'>Site</a>
+          {site.url.site && <a href={site.url.site} target="_blank" rel='noreferrer'>Site</a>}
           <a href={site.url.github} target="_blank" rel='noreferrer'>Github</a>
       </ImageWrapper>
 
