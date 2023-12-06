@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.bcf33d64.js",
+    "main.js": "/static/js/main.f48265e0.js",
     "static/media/me.png": "/static/media/me.6ea720dbf0fe706a3dca.png",
-    "static/media/image_jpg_1296.jpg": "/static/media/image_jpg_1296.bb43cc518cffb0deae99.jpg",
+    "static/media/image_jpg_1296.jpg": "/static/media/image_jpg_1296.d08caeb7c98443727599.jpg",
     "static/media/me_680w.png": "/static/media/me_680w.610c27de8515ab46dddc.png",
     "static/media/me.webp": "/static/media/me.7ce578ac78b751724377.webp",
     "static/media/me_520w.png": "/static/media/me_520w.3bb58cc189eeef0c68ca.png",
     "static/media/image_webp_1296.webp": "/static/media/image_webp_1296.c6d2f99eed5a18488ce9.webp",
-    "static/media/styledcomponents.svg": "/static/media/styledcomponents.e95311fb465c9c0c8bf71160b3a02a26.svg",
     "static/media/brushstroke.svg": "/static/media/brushstroke.dcb81898d95d17f5cb7a7794301fbbbe.svg",
-    "static/media/javascript.svg": "/static/media/javascript.92d9ddfcedbbe5253124ef7a7d848507.svg",
-    "static/media/typescript.svg": "/static/media/typescript.7edc640e5a824ef60f5457339fd641a6.svg",
-    "static/media/react.svg": "/static/media/react.cce3d42beadd75f18450177677df235a.svg",
-    "static/media/css3.svg": "/static/media/css3.781fef856dde7c2b4b2f2040239896f2.svg",
     "static/media/github.svg": "/static/media/github.b398ce4e469980f2e670f9209f191df5.svg",
-    "static/media/git.svg": "/static/media/git.df0fa5a5a36892d7bf7a248179cae0bb.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.45fec793caecb98e2922ef5d9ea91bab.svg",
-    "static/media/html5.svg": "/static/media/html5.aca749b72177505dd22ead8bed8645fb.svg",
     "static/media/phone.svg": "/static/media/phone.c2e46f0f7d192499ba48a20b12c39d8f.svg",
     "static/media/email.svg": "/static/media/email.8c66afc004ab26a62d0e2bab0db1232c.svg",
     "index.html": "/index.html",
@@ -25,9 +18,9 @@
     "static/media/ondulation.svg": "/static/media/ondulation.0b0ac2bfc75bef0a724938ea240fa89a.svg",
     "static/media/ondulationblack.svg": "/static/media/ondulationblack.c05c5b899fc28f7b2d901a89b4ace8b1.svg",
     "static/media/miniondulation.svg": "/static/media/miniondulation.26c14e88b98332a99b0d9cd050741223.svg",
-    "main.bcf33d64.js.map": "/static/js/main.bcf33d64.js.map"
+    "main.f48265e0.js.map": "/static/js/main.f48265e0.js.map"
   },
   "entrypoints": [
-    "static/js/main.bcf33d64.js"
+    "static/js/main.f48265e0.js"
   ]
 }
