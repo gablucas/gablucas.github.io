@@ -35,8 +35,8 @@ const savemysavings = {
   },
   features: [
     'CRUD de transaçoes por meio de uma web api criada com ASP.NET',
+    `Filtro dinâmico`,
     'Migração feita via Entity Framework',
-    'Valor total de receitas e despesas'
   ],
   technologies: [
     'C#',
