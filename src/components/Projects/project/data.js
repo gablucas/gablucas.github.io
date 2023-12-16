@@ -23,7 +23,6 @@ const mybrainfullstack = {
   name: 'My Brain (Fullstack)',
   description: 'Aplicação fullstack de lista de Tarefas',
   url: {
-    site: 'https://gablucas.github.io/mybrain-aspnet-react',
     github: 'https://github.com/gablucas/mybrain-aspnet-react/tree/main',
   },
   image: {
