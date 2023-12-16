@@ -16,11 +16,39 @@ import ohai_jpg_1296 from '../../../assets/projects/ohailongboards/image_jpg_129
 import maplestory_webp_1296 from '../../../assets/projects/maplestoryclicker/image_webp_1296.webp';
 import maplestory_jpg_1296 from '../../../assets/projects/maplestoryclicker/image_jpg_1296.jpg';
 
-import dogs_webp_1296 from '../../../assets/projects/dogs/image_webp_1296.webp';
-import dogs_jpg_1296 from '../../../assets/projects/dogs/image_jpg_1296.jpg';
-
 import savemysavings_webp_1296 from '../../../assets/projects/savemysavings/image_webp_1296.webp';
 import savemysavings_jpg_1296 from '../../../assets/projects/savemysavings/image_jpg_1296.jpg';
+
+const mybrainfullstack = {
+  name: 'My Brain (Fullstack)',
+  description: 'Aplicação fullstack de lista de Tarefas',
+  url: {
+    site: 'https://gablucas.github.io/mybrain-aspnet-react',
+    github: 'https://github.com/gablucas/mybrain-aspnet-react/tree/main',
+  },
+  image: {
+    webp1296: mybrain_webp_1296,
+    jpg1296: mybrain_jpg_1296,
+    alt: 'Imagem do site My Brain Todo List',
+  },
+  features: [
+    'CRUD',
+    'Filtrar listas',
+    'Etiquetar lista',
+    'Fixar lista',
+    'Duplicar lista',
+    'Alterar cor da lista', 
+  ],
+  technologies: [
+    'C#',
+    ".NET",
+    "ASP.NET",
+    "Dapper",
+    "Oracle",
+    'React',
+    'Axios',
+  ]
+};
 
 const savemysavings = {
   name: 'SaveMySavings',
@@ -230,33 +258,4 @@ const maplestoryclicker =   {
   ]
 }
 
-const dogs =   {
-  name: 'Dogs',
-  description: 'Rede Social de Cachorros',
-  url: {
-    site: 'https://gablucas.github.io/dogs-react',
-    github: 'https://github.com/gablucas/dogs-react/tree/main',
-  },
-  image: {
-    webp1296: dogs_webp_1296,
-    jpg1296: dogs_jpg_1296,
-    alt: 'Imagem do site Ohai Longboards',
-  },
-  features: [
-    'Projeto feito com auxílio do curso',
-    'Consumo de Rest API com autenticação JWT',
-    'Registrar usuário',
-    'Postar fotos',
-    'Feed com scroll infinito',
-    'Estatísticas' 
-  ],
-  technologies: [
-    'Html',
-    'Css',
-    'JavaScript',
-    'React',
-  ]
-}
-
-
-export const sites = [savemysavings, learnquest, radstore, dogs, battlecards, mybrain, ohailongboards, maplestoryclicker]
+export const sites = [mybrainfullstack ,savemysavings, learnquest, radstore, battlecards, mybrain, ohailongboards, maplestoryclicker]
