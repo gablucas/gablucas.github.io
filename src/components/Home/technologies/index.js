@@ -2,7 +2,7 @@ import { Item, List } from './styles';
 
 const Technologies = () => {
 
-  const tech = ["C#", ".NET", "ASP.NET", "Entity Framework", "Dapper", "SQL Server", "Oracle", "HTML", "CSS", "JavaScript", "React", "Typescript", "JEST", "GIT"]
+  const tech = ["C#", ".NET", "ASP.NET", "Entity Framework", "Dapper", "MySQL", "PostgreSQL", "Oracle", "Redis", "RabbitMQ", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Azure", "Blazor", "Node.js", "Flutter", "Scrum", "Kanban", "Git"]
 
   return (
     <List>

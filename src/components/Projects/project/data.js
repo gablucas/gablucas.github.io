@@ -1,65 +1,63 @@
-import learnquest_webp_1296 from '../../../assets/projects/learnquest/image_webp_1296.webp';
-import learnquest_jpg_1296 from '../../../assets/projects/learnquest/image_jpg_1296.jpg';
+import velhopromocoes_jpg_1296 from '../../../assets/projects/velhopromocoes/image_jpg_1296.jpg';
+import vbcash_jpg_1296 from '../../../assets/projects/vbcash/image_jpg_1296.jpg';
+import rovitex_jpg_1296 from '../../../assets/projects/rovitex/image_jpg_1296.jpg';
 
-import radstore_webp_1296 from '../../../assets/projects/radstore/image_webp_1296.webp';
-import radstore_jpg_1296 from '../../../assets/projects/radstore/image_jpg_1296.jpg';
-
-import battlecards_webp_1296 from '../../../assets/projects/battlecards/image_webp_1296.webp';
-import battlecards_jpg_1296 from '../../../assets/projects/battlecards/image_jpg_1296.jpg';
-
-import mybrain_webp_1296 from '../../../assets/projects/mybraintodolist/image_webp_1296.webp';
-import mybrain_jpg_1296 from '../../../assets/projects/mybraintodolist/image_jpg_1296.jpg';
-
-import ohai_webp_1296 from '../../../assets/projects/ohailongboards/image_webp_1296.webp';
-import ohai_jpg_1296 from '../../../assets/projects/ohailongboards/image_jpg_1296.jpg';
-
-import maplestory_webp_1296 from '../../../assets/projects/maplestoryclicker/image_webp_1296.webp';
-import maplestory_jpg_1296 from '../../../assets/projects/maplestoryclicker/image_jpg_1296.jpg';
-
-import savemysavings_webp_1296 from '../../../assets/projects/savemysavings/image_webp_1296.webp';
-import savemysavings_jpg_1296 from '../../../assets/projects/savemysavings/image_jpg_1296.jpg';
-
-const mybrainfullstack = {
-  name: 'My Brain (Fullstack)',
-  description: 'Aplicação fullstack de lista de Tarefas',
+const velhopromocoes = {
+  name: 'Velho Promoçoes',
+  description: 'Aplicação fullstack de anuncio e venda de ingressos',
   url: {
-    github: 'https://github.com/gablucas/mybrain-aspnet-react/tree/main',
+    site: 'https://velhopromocoes.com.br/',
   },
   image: {
-    webp1296: mybrain_webp_1296,
-    jpg1296: mybrain_jpg_1296,
-    alt: 'Imagem do site My Brain Todo List',
+    jpg1296: velhopromocoes_jpg_1296,
+    alt: 'Imagem da home do Velho Promoções',
   },
+  about: [
+    'O Velho Promoções é uma plataforma de e-commerce para anúncio e venda de ingressos, que cobre todo o fluxo de compra: carrinho, validação de disponibilidade, pedidos, checkout e processamento de pagamentos.',
+    'A integração com os gateways PagBank, Efí e Ágili permite pagamentos via PIX e cartão de crédito, com webhooks para confirmação, além de cancelamentos, estornos e tratamento de pagamentos recusados.',
+    'O backend foi construído em C#/.NET com APIs REST, CQRS e Mediator, e evoluiu de Clean Architecture para Vertical Slice Architecture. A persistência usa Dapper e Stored Procedures em MySQL, e a autenticação é feita com JWT.',
+    'O site é desenvolvido em React e consome o mesmo backend do VB Cash. Há também um aplicativo em Flutter para leitura e validação de ingressos via QR Code.',
+  ],
   features: [
     'CRUD',
     'Filtrar listas',
     'Etiquetar lista',
     'Fixar lista',
     'Duplicar lista',
-    'Alterar cor da lista', 
+    'Alterar cor da lista',
   ],
   technologies: [
     'C#',
-    ".NET",
-    "ASP.NET",
-    "Dapper",
-    "Oracle",
+    '.NET',
+    'ASP.NET',
     'React',
-    'Axios',
+    'REST APIs',
+    'CQRS',
+    'Mediator',
+    'Vertical Slice Architecture',
+    'Dapper',
+    'MySQL',
+    'Stored Procedures',
+    'JWT',
+    'Flutter'
   ]
 };
 
-const savemysavings = {
-  name: 'SaveMySavings',
-  description: 'Aplicação fullstack de controle financeiro (EM DESENVOLVIMENTO)',
+const vbcash = {
+  name: 'VB Cash',
+  description: 'Aplicação fullstack de um PDV',
   url: {
-    github: 'https://github.com/gablucas/SaveMySavings-aspnet-react',
+    site: 'https://vbcash.com.br/',
   },
   image: {
-    webp1296: savemysavings_webp_1296,
-    jpg1296: savemysavings_jpg_1296,
-    alt: 'Imagem do projeto SaveMySavings',
+    jpg1296: vbcash_jpg_1296,
+    alt: 'Imagem da home do VB Cash',
   },
+  about: [
+    'O VB Cash é uma aplicação fullstack de PDV (ponto de venda).',
+    'Ele compartilha o backend com o Velho Promoções, desenvolvido em C#/.NET com CQRS, Mediator e Vertical Slice Architecture, e com persistência via Dapper e Stored Procedures em MySQL.',
+    'A API conta com autenticação JWT e integração com gateways de pagamento, e o site foi desenvolvido em Next.js.',
+  ],
   features: [
     'CRUD de transaçoes por meio de uma web api criada com ASP.NET',
     `Filtro dinâmico`,
@@ -67,194 +65,61 @@ const savemysavings = {
   ],
   technologies: [
     'C#',
-    ".NET",
-    "ASP.NET",
-    "Entity Framework",
-    "SQL Server",
+    '.NET',
+    'ASP.NET',
     'React',
-    'Axios',
-  ]
-};
-
-const learnquest = {
-  name: 'LearnQuest',
-  description: 'Plataforma de ensino gamificada',
-  url: {
-    site: 'https://gablucas.github.io/learnquest-react-ts/',
-    github: 'https://github.com/gablucas/learnquest-react-ts/tree/main',
-  },
-  image: {
-    webp1296: learnquest_webp_1296,
-    jpg1296: learnquest_jpg_1296,
-    alt: 'Imagem do site LearnQuest',
-  },
-  features: [
-    'Controle de acesso baseado em função (admin/professor/aluno)',
-    'Criar usuários, aulas, matérias e turmas',
-    'Gerenciamento de alunos',
-    'Avaliação de tarefas',
-    'Informações de progressão',
-    'Sistema gamificado'
-  ],
-  technologies: [
-    'Html',
-    'Css',
+    'Next.js',
     'TypeScript',
-    'React',
-    'Jest',
+    'REST APIs',
+    'CQRS',
+    'Mediator',
+    'Vertical Slice Architecture',
+    'Dapper',
+    'MySQL',
+    'Stored Procedures',
+    'JWT',
+    'Flutter'
   ]
 };
 
-const radstore = {
-  name: 'Rad Store',
-  description: 'E-commerce de Roupas e Esportes Radicais',
+const b2brovitex = {
+  name: 'Lojista Rovitex',
+  description: 'Ecommerce B2B',
   url: {
-    site: 'https://gablucas.github.io/radstore-react/',
-    github: 'https://github.com/gablucas/radstore-react/tree/main',
-    figma: 'https://www.figma.com/file/Swtnn1dgpnW2gn4U6WCtR9/Radical-Store?type=design&node-id=0%3A1&t=aqIH9jm6i247beL4-1',
+    site: 'https://lojista.rovitex.com.br/b2b',
   },
   image: {
-    webp1296: radstore_webp_1296,
-    jpg1296: radstore_jpg_1296,
-    alt: 'Imagem do site Rad Store',
+    jpg1296: rovitex_jpg_1296,
+    alt: 'Imagem da home da Rovitex',
   },
+  about: [
+    'O Lojista Rovitex é o novo e-commerce B2B da Rovitex, no qual atuei desde a definição da arquitetura até a implementação de funcionalidades no front-end e no back-end.',
+    'O sistema reúne módulo de produtos, gerenciamento de clientes e carrinho de compras, além de um painel administrativo com menus dinâmicos, banners, cupons, dashboards e gerenciamento de usuários.',
+    'A solução utiliza C#, .NET, Blazor Server, Node.js e TypeScript, seguindo Clean Architecture, CQRS e Mediator. A comunicação entre serviços é feita por mensageria com RabbitMQ, e os dados ficam em Oracle e PostgreSQL.',
+  ],
   features: [
-    'Criar conta', 
-    'Painel do usuário', 
-    'Favoritar produto', 
-    'Carrinho', 
-    'Finalizar compra', 
-    'Alterar dados do usuário', 
-    'Informações do pedido',
-    'Dados salvos no localStorage para simular um banco de dados'
+    'CRUD de transaçoes por meio de uma web api criada com ASP.NET',
+    `Filtro dinâmico`,
+    'Migração feita via Entity Framework',
   ],
   technologies: [
-    'Html',
-    'Css',
+    'C#',
+    '.NET',
+    'Blazor Server',
     'JavaScript',
-    'React',
-    'Styled Components',
-    'Axios',
-    'React Query',
-    'Figma'
+    'HTML',
+    'CSS',
+    'Clean Architecture',
+    'CQRS',
+    'Mediator',
+    'RabbitMQ',
+    'Oracle',
+    'PostgreSQL',
   ]
 };
 
-const battlecards = {
-  name: 'Pokemon Battle Cards',
-  description: 'Game de batalha de cards',
-  url: {
-    site: 'https://gablucas.github.io/battlecards-pokemon-react',
-    github: 'https://github.com/gablucas/battlecards-pokemon-react/tree/main',
-  },
-  image: {
-    webp1296: battlecards_webp_1296,
-    jpg1296: battlecards_jpg_1296,
-    alt: 'Imagem do site Pokemon Battle Cards',
-  },
-  features: [
-    'Sistema de dificuldades (Inteligência da máquina)',
-    'Sistema de pontuação',
-    'Sistema de turnos',
-    'Animações com Styled Components',
-    'Custom Hooks',
-    'Consumo de Rest API',
-  ],
-  technologies: [
-    'Html',
-    'Css',
-    'JavaScript',
-    'React',
-    'Styled Components',
-  ]
-};
 
-const mybrain = {
-  name: 'My Brain Todo List',
-  description: 'Lista de Tarefas',
-  url: {
-    site: 'https://gablucas.github.io/mybrain-todolist-react',
-    github: 'https://github.com/gablucas/mybrain-todolist-react/tree/main',
-  },
-  image: {
-    webp1296: mybrain_webp_1296,
-    jpg1296: mybrain_jpg_1296,
-    alt: 'Imagem do site My Brain Todo List',
-  },
-  features: [
-    'CRUD',
-    'Filtrar listas',
-    'Etiquetar lista',
-    'Fixar lista',
-    'Duplicar lista',
-    'Alterar cor da lista', 
-  ],
-  technologies: [
-    'Html',
-    'Css',
-    'JavaScript',
-    'React',
-  ]
-};
 
-const ohailongboards = {
-  name: 'Ohai Boards',
-  description: 'E-commerce de Longboard',
-  url: {
-    site: 'https://gablucas.github.io/site-longboard-loja',
-    github: 'https://github.com/gablucas/site-longboard-loja',
-    figma: 'https://www.figma.com/file/oMf90s5VAXpbHS8tDYlovP/Longboard-Shop?type=design&node-id=1203%3A963&t=aqIH9jm6i247beL4-1',
-  },
-  image: {
-    webp1296: ohai_webp_1296,
-    jpg1296: ohai_jpg_1296,
-    alt: 'Imagem do site Ohai Longboards',
-  },
-  features: [
-    'Criar conta', 
-    'Painel do usuário', 
-    'Favoritar produto', 
-    'Carrinho', 
-    'Finalizar compra', 
-    'Alterar dados do usuário', 
-    'Informações do pedido',
-    'Dados salvos no localStorage para simular um banco de dados'
-  ],
-  technologies: [
-    'Html',
-    'Css',
-    'JavaScript',
-    'Figma'
-  ]
-}
 
-const maplestoryclicker =   {
-  name: 'MapleStory Clicker',
-  description: 'RPG Game Clicker',
-  url: {
-    site: 'https://gablucas.github.io/game-maplestory-clicker',
-    github: 'https://github.com/gablucas/game-maplestory-clicker',
-  },
-  image: {
-    webp1296: maplestory_webp_1296,
-    jpg1296: maplestory_jpg_1296,
-    alt: 'Imagem do site Ohai Longboards',
-  },
-  features: [
-    'Sistema de progressão de níveis',
-    'Sistema de recompensas (XP e Gold)',
-    'Sistema de ataque e defesa', 
-    'Progressão de fases',
-    'Loja de itens', 
-    'Inventário do personagem',
-    'Equipar itens',
-    'Hotkeys', 
-  ],
-  technologies: [
-    'Html',
-    'Css',
-    'JavaScript',
-  ]
-}
 
-export const sites = [mybrainfullstack ,savemysavings, learnquest, radstore, battlecards, mybrain, ohailongboards, maplestoryclicker]
+export const sites = [velhopromocoes, vbcash, b2brovitex]

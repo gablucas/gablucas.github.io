@@ -36,7 +36,7 @@ const Footer = () => {
           <span>@Gablucasdev</span>
         </a>
 
-        <span>© Gabriel Lucas Pegoretti 2023  </span>
+        <span>© Gabriel Lucas Pegoretti 2026  </span>
       </Content>
     </Container>
   )

@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Container>
       <Content>
-        <h2>Projetos</h2>
+        <h2>Principais trabalhos</h2>
         {sites.map((site, index) => (
           <Project key={index} site={site} />
         ))}

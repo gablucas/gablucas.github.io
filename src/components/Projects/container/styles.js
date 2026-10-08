@@ -30,16 +30,16 @@ export const Content = styled.div`
     z-index: 1;
   }
 
-  h2::before {
-    content: "";
-    height: 20px;
-    width: 280px;
-    background: var(--display-color);
+  // h2::before {
+  //   content: "";
+  //   height: 20px;
+  //   width: 600px;
+  //   background: var(--display-color);
 
-    position: absolute;
-    bottom: 0px;
-    z-index: -1;
-  }
+  //   position: absolute;
+  //   bottom: 0px;
+  //   z-index: -1;
+  // }
 
   @media (max-width: 1240px) {
     max-width: 900px;
@@ -49,22 +49,22 @@ export const Content = styled.div`
     margin-left: 10px;
     margin-right: 10px;
 
-    h2::before {
-      width: 260px;
-    }
+    // h2::before {
+    //   width: 550px;
+    // }
   }
 
-  @media (max-width: 500px) {
-    h2::before {
-      height: 16px;
-      width: 200px;
-    }
-  }
+  // @media (max-width: 500px) {
+  //   h2::before {
+  //     height: 16px;
+  //     width: 440px;
+  //   }
+  // }
 
-  @media (max-width: 375px) {
-    h2::before {
-      height: 14px;
-      width: 170px;
-    }
-  }
+  // @media (max-width: 375px) {
+  //   h2::before {
+  //     height: 14px;
+  //     width: 170px;
+  //   }
+  // }
 `

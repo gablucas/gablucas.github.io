@@ -14,10 +14,12 @@ const Image = ({ site }) => {
   return (
     <Container>
       {skeleton && <div></div>}
-      <Picture onLoad={handleLoad} opacity={opacity.current}>
-        <source  type='image/webp' srcSet={`${site.image.webp1296} 1296w`} />
         <img src={site.image.jpg1296} alt={site.image.alt} />
-      </Picture>
+
+      {/* <Picture onLoad={handleLoad} opacity={opacity.current}>
+        <source  type='image/jpg' srcSet={`${site.image.webp1296} 1296w`} />
+        <img src={site.image.jpg1296} alt={site.image.alt} />
+      </Picture> */}
     </Container>
   );
 };

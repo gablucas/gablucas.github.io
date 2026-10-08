@@ -73,13 +73,14 @@ export const ImageWrapper = styled.div`
 
     position: absolute;
     bottom: 0px;
-    width:${props => props.site ? "50%" : "100%"}
+    // width:${props => props.site ? "50%" : "100%"}
+    width: 100%
   }
 
-  a:nth-child(2) {
-    border-right:${props => props.site ? "2px solid var(--tertiary-color)" : "none"} ;
-    border-radius: ${props => props.site ? "0 0 0 7px" : "0 0 7px 7px"} ;
-  }
+  // a:nth-child(2) {
+  //   border-right:${props => props.site ? "2px solid var(--tertiary-color)" : "none"} ;
+  //   border-radius: ${props => props.site ? "0 0 0 7px" : "0 0 7px 7px"} ;
+  // }
 
   a:nth-child(3) {
     border-radius: 0 0 7px 0;
@@ -110,7 +111,7 @@ export const ImageWrapper = styled.div`
 export const Info = styled.div`
   display: grid;
   align-content: start;
-  grid-template-rows: repeat(3, auto) 1fr auto;
+  grid-template-rows: repeat(2, auto) 1fr auto;
 
   h3 {
     font: var(--font-32-eb);
@@ -119,6 +120,13 @@ export const Info = styled.div`
 
   span {
     font: var(--font-14-b);
+    color: var(--subtitle-color1);
+    margin-bottom: 12px;
+  }
+
+  p {
+    font: var(--font-14-r);
+    line-height: 1.3;
     color: var(--subtitle-color1);
   }
 
@@ -186,4 +194,10 @@ export const TechnologiesList = styled.ul`
       padding: 2px;
     }
   }
+`
+
+export const Paragraphs = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 `
